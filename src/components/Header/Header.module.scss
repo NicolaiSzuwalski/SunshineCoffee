@@ -1,0 +1,71 @@
+header {
+  .HeaderCont {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    .Circle {
+      height: 12rem;
+      width: 12rem;
+      display: block;
+      background-color: black;
+      border-radius: 50%;
+
+      position: relative;
+
+      .CoffeeCont {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        white-space: nowrap;
+
+        width: 5rem;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        img{
+        }
+
+        h2 {
+          font-family: "Inspiration", cursive;
+          color: white;
+          font-size: 34px;
+          margin-left: -19px;
+        }
+
+      }
+
+    }
+
+  }
+  .HeaderBg {
+    position: relative;
+    height: 45vh;
+  
+    img {
+      max-height: 45vh;
+      width: 100%;
+      z-index: -1; 
+      position: absolute; 
+      top: 0;
+      left: 0;
+      
+    }
+  
+    h1 {
+      font-family: "Licorice", cursive;
+      font-size: 80px;
+      z-index: 1; 
+      color: #ffffff;
+      position: absolute; 
+      top: 50%; 
+      left: 50%; 
+      transform: translate(-50%, -50%); 
+      text-align: center;
+    }
+  }
+  
+}
