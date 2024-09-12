@@ -1,0 +1,22 @@
+.Navbar {
+  background-color: #000;
+  color: white;
+  width: 100%;
+}
+.Navbar ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 5rem;
+  margin-right: 1vw;
+  padding: 15px;
+}
+.Navbar ul .Europa {
+  padding: 7px 15px;
+  font-family: "Inter" sans-serif;
+  color: white;
+  border: solid 1px #FFFFFF;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+}/*# sourceMappingURL=Navbar.module.css.map */

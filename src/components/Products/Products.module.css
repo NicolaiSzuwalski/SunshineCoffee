@@ -1,0 +1,32 @@
+.ProductsMain {
+  max-height: 50vh;
+  margin-bottom: 30vh;
+}
+.ProductsMain h2 {
+  text-align: center;
+}
+.ProductsMain .Products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 1rem;
+}
+.ProductsMain .Products .ProductCard {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.ProductsMain .Products .ProductCard p {
+  width: 70%;
+}
+.ProductsMain .Products .ProductCard .ProductImg img {
+  width: 150px;
+  height: auto;
+}
+.ProductsMain .Products .ProductCard button {
+  padding: 10px 40px;
+  background-color: #1e1e1e;
+  color: #efefef;
+  border: none;
+  border-radius: 5px;
+}/*# sourceMappingURL=Products.module.css.map */

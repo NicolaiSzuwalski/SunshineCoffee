@@ -1,0 +1,25 @@
+.ShopNow{
+    margin: 10vh;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    h2{
+        font-family: 'licorice', cursive;
+        font-size: 60px;
+    }
+    p{
+        font-size: 16px;
+        width: 40%;
+        text-align: center;        
+    }
+    button{
+        background-color: #1e1e1e;
+        color: #ffffff;
+        padding: 15px 40px;
+    }:hover{
+        cursor: pointer;
+    }
+}
